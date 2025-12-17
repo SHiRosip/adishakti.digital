@@ -1,0 +1,164 @@
+.contact-page {
+    background: #0f051e;
+    color: #e9d5ff;
+}
+
+/* HERO */
+.contact-hero {
+    padding: 110px 10%;
+    text-align: center;
+    background: linear-gradient(135deg, #3a0ca3, #7209b7);
+}
+
+.contact-hero h1 {
+    color: #ffb703;
+    font-size: 2.8rem;
+}
+
+.contact-hero p {
+    margin-top: 10px;
+}
+
+/* MAIN */
+.contact-section {
+    padding: 100px 10%;
+    display: grid;
+    grid-template-columns: 1.1fr 0.9fr;
+    gap: 50px;
+}
+
+/* FORM */
+.contact-form {
+    background: white;
+    padding: 40px;
+    border-radius: 16px;
+    color: #0f051e;
+}
+
+.contact-form h2 {
+    margin-bottom: 25px;
+}
+
+.form-row {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 15px;
+}
+
+.contact-form input,
+.contact-form select,
+.contact-form textarea {
+    width: 100%;
+    padding: 14px;
+    border-radius: 8px;
+    border: 1px solid #ddd;
+    margin-bottom: 15px;
+    font-size: 0.95rem;
+}
+
+.contact-form textarea {
+    min-height: 120px;
+    resize: none;
+}
+
+.contact-form button {
+    width: 50%;
+    padding: 14px;
+    background: #ffb703;
+    border: none;
+    border-radius: 8px;
+    font-weight: 700;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.contact-form button:hover {
+    background: #ffd166;
+    box-shadow: rgb(38, 57, 77) 0px 10px 30px -10px;
+}
+
+.contact-form button:active {
+    transform: translateY(4px);
+    box-shadow: 0 1px 0 #3b107a;
+}
+
+/* DETAILS */
+.contact-details {
+    background: rgba(255, 255, 255, 0.05);
+    padding: 40px;
+    border-radius: 16px;
+}
+
+.contact-details h2 {
+    color: #ffb703;
+    margin-bottom: 20px;
+    font-size: 2.5em;
+}
+
+.contact-details p {
+    margin-bottom: 12px;
+}
+
+.business-hours {
+    margin-top: 25px;
+}
+
+/* WHY */
+.contact-why {
+    padding: 80px 10%;
+}
+
+.contact-why h2 {
+    color: #ffb703;
+    margin-bottom: 20px;
+}
+
+.contact-why ul {
+    list-style: none;
+    padding-left: 0;
+}
+
+.contact-why li {
+    margin-bottom: 10px;
+    padding-left: 22px;
+    position: relative;
+}
+
+.contact-why li::before {
+    content: "✔";
+    position: absolute;
+    left: 0;
+    color: #ffb703;
+}
+
+/* CTA */
+.contact-cta {
+    padding: 90px 10%;
+    text-align: center;
+    background: linear-gradient(135deg, #240046, #3c096c);
+}
+
+.contact-cta h2 {
+    color: #ffb703;
+}
+
+.contact-cta p {
+    margin-top: 10px;
+}
+
+.contact-cta .tagline {
+    margin-top: 15px;
+    font-weight: 600;
+    color: #ffd166;
+}
+
+/* RESPONSIVE */
+@media (max-width: 900px) {
+    .contact-section {
+        grid-template-columns: 1fr;
+    }
+
+    .form-row {
+        grid-template-columns: 1fr;
+    }
+}
