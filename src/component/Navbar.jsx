@@ -20,8 +20,8 @@ function Navbar() {
       <nav>
         <div className="nav-list">
           <Link to="/">Home</Link>
+          <Link to="/about">About us</Link>  
           <Link to="/services">Services</Link>
-          <Link to="/about">About</Link>
           <Link to="/contact">Contact</Link>
         </div>
       </nav>
