@@ -4,6 +4,9 @@ import Contact from "./Contact";
 import About from "./About";
 import Services from "./Services";
 import "../styles/home.css";
+import seo from "../assets/icons/globe.svg"
+import website from "../assets/icons/laptop-minimal-check.svg"
+import content from "../assets/icons/speech.svg"
 
 function Home() {
   return (
@@ -59,7 +62,9 @@ function Home() {
         </h3>
         <div className="cards">
           <div className="card card-1">
-            <div className="img">IMG</div>
+            <div className="img">
+            <img src={seo} alt="icon" />
+            </div>
             <h2>Digital Marketing & Advertising</h2>
 
             <ul>
@@ -75,7 +80,9 @@ function Home() {
             </ul>
           </div>
           <div className="card card-2">
-            <div className="img">IMG</div>
+            <div className="img">
+            <img src={content} alt="icon" />
+            </div>
             <h2>Customer Engagement & Automation</h2>
 
             <ul>
@@ -88,7 +95,9 @@ function Home() {
             </ul>
           </div>
           <div className="card card-3">
-            <div className="img">IMG</div>
+            <div className="img">
+              <img src={website} alt="icon" />
+            </div>
             <h2> Web, App & Creative Development</h2>
 
             <ul>

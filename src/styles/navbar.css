@@ -17,6 +17,9 @@ header.sticky {
 
 }
 
+header.sticky img{
+    opacity: 0;
+}
 
 /* .navbar {
     position: absolute;
@@ -30,6 +33,11 @@ header.sticky {
 
 .nav-logo {
     width: 50%;
+}
+
+.nav-logo img{
+    height: 40px;
+    width: auto;
 }
 
 
@@ -75,4 +83,10 @@ nav {
     background-clip: text;
     text-shadow: 0 0 8px rgba(255, 0, 255, .3);
     scroll-behavior: smooth;
+}
+
+@media (max-width: 900px) {
+    header{
+        display: none;
+    }
 }

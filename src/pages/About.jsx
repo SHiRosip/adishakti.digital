@@ -1,5 +1,4 @@
 import "../styles/about.css";
-
 import { useEffect } from "react";
 
 function About() {
@@ -52,9 +51,9 @@ function About() {
           </p>
         </div>
 
-        <div className="fade-in">
+        <div className="fade-in about-image">
           <img
-            src="/src/assets/images/"
+            src="/motion.gif"
             alt="About Adishakti Digital"
           />
         </div>
@@ -62,8 +61,8 @@ function About() {
 
       {/* LOGO MEANING */}
       <section className="about-section split alt-bg">
-        <div className="fade-in">
-          <img src="/images/logo-meaning.png" alt="Meaning Behind Logo" />
+        <div className="fade-in logo-mean">
+          <img src="LOGO.png" alt="Meaning Behind Logo" />
         </div>
         <div className="fade-in">
           <h2>The Meaning Behind Our Name & Logo</h2>

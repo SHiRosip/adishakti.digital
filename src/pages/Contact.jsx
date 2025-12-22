@@ -117,12 +117,43 @@ function Contact() {
         </div>
 
         <div className="contact-details">
-          <h2>🏢 आदिशक्ति.digital</h2>
+          <h2>🏢आदिशक्ति.digital</h2>
+
           <p>📞 +91 8093302712</p>
           <p>📧 info.adishaktigroup@gmail.com</p>
           <p>🌐 www.adishakti.digital</p>
           <p>📍 Bhubaneswar, Odisha, India</p>
+
+          <div className="business-hours">
+            <h4>Business Hours</h4>
+            <p>Monday – Saturday: 10:00 AM – 7:00 PM</p>
+            <p>Sunday: Closed (Available via email)</p>
+          </div>
         </div>
+      </section>
+
+      {/* WHY REACH OUT */}
+      <section className="contact-why">
+        <h2>Why Reach Out to Adishakti.digital?</h2>
+        <ul>
+          <li>Local team with deep knowledge of the Odisha market</li>
+          <li>Full-service digital solutions under one roof</li>
+          <li>Fast, friendly, and expert support</li>
+          <li>Transparent process and clear communication</li>
+          <li>Trusted by clients across industries</li>
+        </ul>
+      </section>
+
+      {/* FINAL CTA */}
+      <section className="contact-cta">
+        <h2>Let’s Start Your Digital Success Story</h2>
+        <p>
+          You’ve got the vision. We’ve got the tools, skills, and passion to
+          make it real.
+        </p>
+        <p className="tagline">
+          Adishakti.digital — Empowering Brands, Digitally.
+        </p>
       </section>
     </main>
   );

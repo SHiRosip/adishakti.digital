@@ -15,7 +15,9 @@ function Navbar() {
   }, []);
   return (
     <header className={`navbar ${isSticky ? "sticky" : ""}`}>
-      <div className="nav-logo">Adishakti Digital</div>
+      <div className="nav-logo">
+        <img src="/aadishakti.travel.jpg" alt="Adisakti Digital" srcset="" />
+      </div>
 
       <nav>
         <div className="nav-list">

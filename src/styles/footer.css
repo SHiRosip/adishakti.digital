@@ -94,6 +94,12 @@
     .footer .brand p {
       margin: auto;
     }
+    .social-icons{
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    } 
+    
   }
 
   /* SOCIAL ICONS */
